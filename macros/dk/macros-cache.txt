@@ -1,0 +1,52 @@
+VER 3 0100000000000002 "amz" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Anti-Magic Zone
+END
+VER 3 0100000000000008 "breath" "INV_MISC_QUESTIONMARK"
+#showtooltip Breath of Sindragosa
+/cast Pillar of Frost
+/cast Raise Dead
+/cast Empower Rune Weapon
+/target player
+/use Inscrutable Quantum Device
+/targetlasttarget
+/cast !Breath of Sindragosa
+END
+VER 3 0100000000000007 "Covenant" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,harm,nodead] [] Shackle the Unworthy(Kyrian);
+/cast Abomination Limb(Necrolord)
+END
+VER 3 0100000000000001 "dnd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Death and Decay
+END
+VER 3 0100000000000006 "grasp" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,nodead]Gorefiend's Grasp; [] Gorefiend's Grasp
+END
+VER 3 0100000000000005 "grip" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm,nodead] Death Grip; [] Death Grip
+END
+VER 3 0100000000000003 "interrupt" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm,nodead]Mind Freeze; [] Mind Freeze 
+END
+VER 3 010000000000000B "RuneGhoul" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Dancing Rune Weapon
+/cast Raise Dead
+END
+VER 3 010000000000000A "sharpening" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [button:1] Shaded Sharpening Stone
+/use [button:1] 16
+/use [button:2] Shaded Sharpening Stone
+/use [button:2] 17
+END
+VER 3 0100000000000004 "stun" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm,nodead]Asphyxiate; [] Asphyxiate
+END
+VER 3 010000000000000C "Vampiric Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Vampiric Blood
+/cast Death Strike
+END
