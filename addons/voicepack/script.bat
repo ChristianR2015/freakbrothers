@@ -10,7 +10,7 @@ setlocal ENABLEDELAYEDEXPANSION
 set /a c=1
 
 for /r %%f in (.\sounds\*) do (
-	echo database[!c!]="%%~nxf";>> Data.lua
+	echo database[!c!]="%%~nf";>> Data.lua
 	set /a c=c+1
 )
 
