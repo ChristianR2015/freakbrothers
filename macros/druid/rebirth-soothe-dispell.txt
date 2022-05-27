@@ -1,0 +1,4 @@
+VER 3 0100000000000004 "Druid Powermacro" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's Cure
+/cast {@mouseover,help,dead][help,dead]Rebirth;[spec:4,@mouseover,help,nodead]Nature's Cure;[@mouseover,harm,nodead][harm]Soothe;[spec:4]Nature's Cure;Remove Corruption;
+END
