@@ -1,0 +1,9 @@
+VER 3 000000000000005A "Bron" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/run if not InCombatLockdown() then for i=0,40 do local n,t,_,_,_,_,_,_,_,s=UnitBuff("player",i) if s == 333961 then CancelUnitBuff("player",i) return end end end
+/cast [nostealth] Prowl
+/cast [nostealth] Stealth 
+/cast [nostealth] Camouflage
+/cast [nostealth] Greater Invisibility
+/use item:171266
+END
