@@ -1,0 +1,11 @@
+VER 3 000000000000005E "ZM Quests" "4254041"
+/use Firim's Forge-tap
+/use Kinematic Micro-Life Recalibrator
+/use Fishing Portal
+/use Jiro Scan
+/use Proto Wrangler Rope
+/use Containment Trap
+/use Portal Initiator
+/use Irresistible Goop
+/click ExtraActionButton1
+END
