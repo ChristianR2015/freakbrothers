@@ -1,0 +1,7 @@
+VER 3 010000000000000A "sharpening" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [button:1] Shaded Sharpening Stone
+/use [button:1] 16
+/use [button:2] Shaded Sharpening Stone
+/use [button:2] 17
+END
