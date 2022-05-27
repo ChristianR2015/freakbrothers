@@ -1,4 +1,4 @@
-VER 3 000000000000005A "Bron" "INV_MISC_QUESTIONMARK"
+VER 3 000000000000005A "Bron Stealth" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /run if not InCombatLockdown() then for i=0,40 do local n,t,_,_,_,_,_,_,_,s=UnitBuff("player",i) if s == 333961 then CancelUnitBuff("player",i) return end end end
 /cast [nostealth] Prowl
